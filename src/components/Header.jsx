@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import bgHeader from '../assets/bg_header.png';
 
 export const Header = ({menuOpen, setMenuOpen}) => {
 
@@ -13,7 +12,7 @@ export const Header = ({menuOpen, setMenuOpen}) => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
-          src={bgHeader}
+          src="/bg_header.png"
           alt="PC Setup Background" 
           className="w-full h-full object-cover"
         />
