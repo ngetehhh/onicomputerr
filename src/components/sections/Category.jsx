@@ -1,43 +1,43 @@
 
 export const Category = () => {
-    const categories = [
-    {
-      id: 1,
-      title: "CPU",
-      desc: "Menyediakan berbagai otak komputer anda",
-      image: "src/assets/processor.png",
-    },
-    {
-      id: 2,
-      title: "Graphic Card",
-      desc: "Tingkatkan kualitas grafis dan performa",
-      image: "src/assets/vga.png",
-    },
-    {
-      id: 3,
-      title: "Motherboard",
-      desc: "Fondasi kokoh untuk PC yang stabil",
-      image: "src/assets/motherboard.png", // Generic tech background
-    },
-    {
-      id: 4,
-      title: "PC Case",
-      desc: "Desain elegan untuk setup impian",
-      image: "src/assets/casing.png",
-    },
-    {
-      id: 5,
-      title: "Memory / RAM",
-      desc: "Kecepatan multitasking yang maksimal",
-      image: "src/assets/memory.jpg ",
-    },
-    {
-      id: 6,
-      title: "Power Supply",
-      desc: "Daya stabil untuk seluruh komponen",
-      image: "src/assets/CorsairSupply.jpg", 
-    },
-  ];
+   const categories = [
+  {
+    id: 1,
+    title: "CPU",
+    desc: "Menyediakan berbagai otak komputer anda",
+    image: "/processor.png",
+  },
+  {
+    id: 2,
+    title: "Graphic Card",
+    desc: "Tingkatkan kualitas grafis dan performa",
+    image: "/vga.png",
+  },
+  {
+    id: 3,
+    title: "Motherboard",
+    desc: "Fondasi kokoh untuk PC yang stabil",
+    image: "/motherboard.png", 
+  },
+  {
+    id: 4,
+    title: "PC Case",
+    desc: "Desain elegan untuk setup impian",
+    image: "/casing.png",
+  },
+  {
+    id: 5,
+    title: "Memory / RAM",
+    desc: "Kecepatan multitasking yang maksimal",
+    image: "/memory.jpg",
+  },
+  {
+    id: 6,
+    title: "Power Supply",
+    desc: "Daya stabil untuk seluruh komponen",
+    image: "/CorsairSupply.jpg", 
+  },
+];
 
   return (
     <div id="category" className="py-20 bg-white">
